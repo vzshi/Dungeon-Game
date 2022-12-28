@@ -18,12 +18,12 @@ import java.awt.Color;
 
 public class Tileset {
     public static final TETile AVATAR = new TETile('@', Color.white, Color.black, "you");
-    public static final TETile WALL = new TETile('#', new Color(216, 128, 128), Color.darkGray,
+    public static final TETile WALL = new TETile(' ', new Color(216, 128, 128), Color.darkGray,
             "wall");
-    public static final TETile FLOOR = new TETile('·', new Color(128, 192, 128), Color.black,
+    public static final TETile FLOOR = new TETile('·', Color.gray, new Color(
+            0,0,30),
             "floor");
     public static final TETile NOTHING = new TETile(' ', Color.black, Color.black, "nothing");
-    public static final TETile GRASS = new TETile('"', Color.green, Color.black, "grass");
     public static final TETile WATER = new TETile('≈', Color.blue, Color.black, "water");
     public static final TETile FLOWER = new TETile('❀', Color.magenta, Color.pink, "flower");
     public static final TETile LOCKED_DOOR = new TETile('█', Color.orange, Color.black,
@@ -33,6 +33,10 @@ public class Tileset {
     public static final TETile SAND = new TETile('▒', Color.yellow, Color.black, "sand");
     public static final TETile MOUNTAIN = new TETile('▲', Color.gray, Color.black, "mountain");
     public static final TETile TREE = new TETile('♠', Color.green, Color.black, "tree");
+    public static final TETile WHITE = new TETile(' ', Color.white, Color.white, "outer light");
+    public static final TETile YELLOW = new TETile(' ', Color.yellow, Color.yellow, "inner light");
+    public static final TETile LIGHT_BULB = new TETile('▢', Color.yellow, Color.black, "light source");
+
 }
 
 

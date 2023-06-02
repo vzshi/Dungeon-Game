@@ -33,8 +33,9 @@ public class Tileset {
     public static final TETile SAND = new TETile('▒', Color.yellow, Color.black, "sand");
     public static final TETile MOUNTAIN = new TETile('▲', Color.gray, Color.black, "mountain");
     public static final TETile TREE = new TETile('♠', Color.green, Color.black, "tree");
+    public static final TETile GRASS = new TETile('"', Color.green, Color.black, "grass");
     public static final TETile WHITE = new TETile(' ', Color.white, Color.white, "outer light");
-    public static final TETile YELLOW = new TETile(' ', Color.yellow, Color.yellow, "inner light");
+    public static final TETile LIGHT = new TETile(' ', Color.yellow, Color.yellow, "inner light");
     public static final TETile LIGHT_BULB = new TETile('▢', Color.yellow, Color.black, "light source");
 
 }
